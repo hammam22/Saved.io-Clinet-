@@ -1,0 +1,80 @@
+
+
+implementation 'com.squareup.retrofit2:retrofit:2.6.1'
+implementation 'com.squareup.retrofit2:converter-gson:2.6.1'
+<uses-permission android:name="android.permission.INTERNET" />
+interface class
+
+
+user key :
+JXpjjDTi5LHoCaTUs6wcBpQIgFB08G1W
+
+
+dev key:
+LE02ylhtAOTBU8vxFufFzwocdKcnl5ou
+
+
+*******************************************************
+Retrieve All bookmarks
+
+Returns the most recent bookmarks limited to 50 (by default) at a time.
+
+GET http://devapi.saved.io/bookmarks
+
+Params
+
+devkey: your developer key
+
+key: the user key
+
+page: INT. (optional. Default is 1)
+
+limit: INT. (optional. Default is 50)
+
+list: Name of list (optional)
+
+Retrieve Single Bookmark
+
+Returns a single bookmark when given the bookmark ID (bk_id)
+
+GET http://devapi.saved.io/bookmarks/[bk_id]
+
+Params
+
+devkey: your developer key
+
+key: the user key
+
+Create a Bookmark
+
+POST http://devapi.saved.io/bookmarks/
+
+Params
+
+devkey: your developer key
+
+key: the user key
+
+url: The url you want to save
+
+title: The title of the url you want to save
+
+list: Name of the list to add bookmark to (optional)
+
+Response:
+
+id: the id of the newly created bookmark
+
+Delete a Bookmark
+
+DELETE http://devapi.saved.io/bookmarks/
+
+Params
+
+devkey: your developer key
+
+key: the user key
+
+id: the bk_id of the bookmark
+
+*******************************************************
