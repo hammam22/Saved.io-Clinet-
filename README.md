@@ -1,6 +1,6 @@
 # Saved.io-Clinet-
 
-This is only a clinet app that reflect the services of http://save.io website.
+This is only a clinet app that reflect the services of http://saved.io website.
 
 It's a bookmark service.
 
